@@ -1,7 +1,7 @@
 const http = require('http');
 const os = require('os');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 const server = http.createServer((req, res) => {
   const now = new Date().toISOString();
