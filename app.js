@@ -99,7 +99,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(\`[${new Date().toISOString()}] Server started on port ${PORT}\`);
+  console.log(`[${new Date().toISOString()}] Server started on port ${PORT}`);
 });
 
 process.on('SIGTERM', () => {
